@@ -1,0 +1,24 @@
+.sectionHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    justify-content: space-around;
+    z-index: 1010;
+    position: relative;
+}
+
+.development {
+    position: absolute;
+    bottom: 70px;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+.developmentText {
+    border-width: medium;
+    padding: 1.2rem;
+    border-color: #DDA74F;
+}
