@@ -1,10 +1,16 @@
+// "use client"; // Using Client
 import React from 'react';
+import { Providers } from "./providers";
+
+import Navigation from '../components/Navigation';
 
 import './globals.css';
 import { Inter, Poppins } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 const poppins = Poppins({ subsets: ['latin'], weight: "400" });
+
+
 
 
 export const metadata = {
@@ -15,7 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className} suppressHydrationWarning={true}>{children}</body>
+      <body className={poppins.className} suppressHydrationWarning={true}>
+        <Providers>
+          <Navigation/>
+          {children}
+        </Providers>
+      </body>
     </html>
   )
 }

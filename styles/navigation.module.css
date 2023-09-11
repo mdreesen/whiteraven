@@ -1,0 +1,8 @@
+.navContainer {
+    background: transparent;
+}
+
+.navItems {
+    display: flex;
+    justify-content: center;
+}
