@@ -1,5 +1,7 @@
 .navContainer {
     background: transparent;
+    color: white;
+    z-index: 3000;
 }
 
 .navItems {

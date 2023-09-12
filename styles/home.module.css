@@ -4,7 +4,7 @@
     justify-content: center;
     height: 100vh;
     justify-content: space-around;
-    z-index: 1010;
+    z-index: 1000;
     position: relative;
 }
 
